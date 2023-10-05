@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Google服务</string>
+    <string name="toolbar_search">搜索</string>
+    <string name="toolbar_help">指南</string>
+    <string name="toolbar_clear_shortcut">清空捷径</string>
+    <string name="item_create_shortcut">新增/移除捷径</string>
+    <string name="help_text">这个应用可以列出Google Play Service所有暴露的页面，点击列表中的项目，可以进入对应的页面（某些页面可能无法打开），长按列表项，可以固定快捷方式，长按桌面启动器上的应用图标，在弹出的菜单中就能找到了，你也可以拖出桌面图标弹出菜单中的快捷方式到桌面空白处，生成桌面图标。</string>
+</resources>

@@ -3,5 +3,6 @@
     <string name="toolbar_search">Search</string>
     <string name="toolbar_help">Help</string>
     <string name="toolbar_clear_shortcut">Clear Shortcut</string>
-    <string name="item_create_shortcut">Shortcut</string>
+    <string name="item_create_shortcut">Add/Remove Shortcut</string>
+    <string name="help_text">This application can list all the pages exposed by Google Play Service. Click on the item in the list to enter the corresponding page (some page may not be opened). Press and hold the list item to pin the shortcut. Press and hold on the desktop launcher. The application icon can be found in the pop-up menu. You can also drag the shortcut from the desktop icon pop-up menu to a blank space on the desktop to generate a desktop icon.</string>
 </resources>

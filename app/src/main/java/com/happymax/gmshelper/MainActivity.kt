@@ -1,5 +1,6 @@
 package com.happymax.gmshelper
 
+import android.content.Intent
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
 import android.os.Bundle
@@ -127,7 +128,10 @@ class MainActivity : AppCompatActivity() {
                 }
                 ShortcutManagerCompat.removeDynamicShortcuts(this, shortCutsID)
             }
-            R.id.help -> Toast.makeText(this, "You clicked ${getText(R.string.toolbar_help)}", Toast.LENGTH_SHORT).show()
+            R.id.help -> {
+                val intent = Intent(this, HelpActivity::class.java)
+                startActivity(intent)
+            }
         }
         return true
     }
